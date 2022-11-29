@@ -11,7 +11,10 @@ LABEL version="1.0"
 WORKDIR /usr/src/app
 
 # 2
-ENV SERVER_PORT=8000
+ENV SERVER_PORT=8080
+
+# 1
+RUN apt update && apt install -y net-tools
 
 # 1
 # ADD and COPY 
