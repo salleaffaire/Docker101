@@ -72,8 +72,3 @@ docker login
 ```bash
 docker push salleaffaire/demo-node-server:latest
 ```
-
-ToMove:
-
-<https://devblogs.microsoft.com/pix/configuring-pix-to-access-pdbs-for-cpu-captures/>
-<https://bitbucket.org/anders_melander/map2pdb/src/master/>
